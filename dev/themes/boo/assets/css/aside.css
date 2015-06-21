@@ -1,0 +1,23 @@
+.read-next {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPElEQVQYlY3KuREAIAwEMdeyLbj/2o4IhscPgTIZoI67y34SUMeZyrinNN4pjFF6YpaOWKUVuwTIfhKgAcv1jXNASP1lAAAAAElFTkSuQmCC);
+  color: #333; }
+
+.read-next a {
+  text-decoration: none;
+  display: block;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000; }
+
+.read-next a .read-next-title {
+  font-family: "Nixie One", sans-serif;
+  font-size: 100%; }
+
+.pagination {
+  display: block;
+  line-height: 30px;
+  text-align: center; }
+
+/*# sourceMappingURL=aside.css.map */

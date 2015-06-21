@@ -5,7 +5,11 @@
 @import "footer";
 @import "post";
 @import "page";
+@import "aside";
 
+* {
+	box-sizing: border-box;
+}
 html {
 	height: 100%;
 }
@@ -79,9 +83,6 @@ img {
 }
 .hidden {
 	display: none;
-}
-.content {
-	padding: $baseline * 4 $baseline $baseline * 4;
 }
 
 //https://css-tricks.com/snippets/css/clear-fix/

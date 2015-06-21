@@ -1,0 +1,25 @@
+//Boo theme aside.scss
+@import "variables";
+
+.read-next {
+	background: $theme-bg-dark-stripes;
+	color: $theme-color-subdue;
+}
+.read-next a {
+	text-decoration: none;
+	display: block;
+	min-height: 200px;
+	background-size: cover;
+	background-position: center center;
+	color: $theme-color-inverse;
+	text-shadow: 2px 2px 2px $theme-color-default;	
+}
+.read-next a .read-next-title {
+	font-family: $font-family-wrap;
+	font-size: 100%;
+}
+.pagination {
+	display: block;
+	line-height: $baseline * 2;
+	text-align: center;
+}

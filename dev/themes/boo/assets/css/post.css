@@ -1,0 +1,105 @@
+.extra-pagination {
+  display: none; }
+
+.post-background {
+  width: 100%;
+  padding: 30px 15px 60px; }
+
+.post-background:nth-child(2n + 1) {
+  background-color: #efefef; }
+
+.post {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+  padding: 15px; }
+
+.post-title {
+  position: relative;
+  font-size: 280%;
+  line-height: 120%;
+  font-family: "Nixie One", sans-serif; }
+
+.post-title a {
+  text-decoration: none;
+  color: #222; }
+
+.post-title a:hover {
+  color: #333; }
+
+.post-content p, .post-content li {
+  font-size: 120%;
+  line-height: 120%; }
+
+.post-content li li {
+  font-size: 100%; }
+
+.post-excerpt {
+  max-width: 620px;
+  font-size: 140%;
+  line-height: 120%;
+  font-weight: 300;
+  float: left;
+  color: #333; }
+
+.post-meta {
+  font-family: "Nixie One", sans-serif;
+  float: right;
+  min-width: 300px;
+  max-width: 300px;
+  font-size: 120%;
+  color: #222;
+  text-align: center; }
+
+.post-meta a {
+  color: #222;
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.author-thumb {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 65px;
+  width: auto;
+  box-shadow: 1px 1px 2px #666; }
+
+.post-date {
+  display: block; }
+
+.post-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 60px 0 30px;
+  border-top: 3px dotted #efefef; }
+
+.post-footer .author-image a {
+  display: inline-block;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  background-position: center center;
+  background-color: #efefef; }
+
+.post-footer .author h4 a {
+  font-size: 150%;
+  text-decoration: none;
+  font-family: "Nixie One", sans-serif;
+  font-weight: normal;
+  color: #333; }
+
+.post-footer .author p a {
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.post-footer .author p {
+  font-size: 80%; }
+
+.post-footer .author-meta {
+  font-size: 80%; }
+
+.share {
+  margin: 30px 0; }
+
+/*# sourceMappingURL=post.css.map */

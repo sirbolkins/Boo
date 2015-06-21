@@ -5,6 +5,19 @@
 .extra-pagination {
 	display:none;
 }
+.post-background {
+	width: 100%;
+	padding: $baseline * 2 15px $baseline * 4;
+}
+.post-background:nth-child(2n + 1) {
+	background-color: $theme-bg-lighter;
+}
+.post {
+	margin: 0 auto;
+	max-width: 980px;
+	width: 100%;
+	padding: $baseline;
+}
 .post-title {
 	position: relative;
 	font-size: 280%;
@@ -17,11 +30,6 @@
 }
 .post-title a:hover {
 	color: $theme-color-subdue;
-}
-.post {
-	max-width: 980px;
-	width: 100%;
-	margin: 0 auto $baseline * 8;
 }
 .post-content p, .post-content li {
 	font-size: 120%;

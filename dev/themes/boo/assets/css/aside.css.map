@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,UAAW;EACV,UAAU,ECYa,uLAAuL;EDX9M,KAAK,ECGe,IAAI;;ADDzB,YAAa;EACZ,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,KAAK;EACjB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,aAAa;EAClC,KAAK,ECPgB,IAAI;EDQzB,WAAW,EAAE,gBAAgC;;AAE9C,6BAA8B;EAC7B,WAAW,ECIO,uBAAW;EDH7B,SAAS,EAAE,IAAI;;AAEhB,WAAY;EACX,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,IAAa;EAC1B,UAAU,EAAE,MAAM",
+"sources": ["../../../../../src/assets/scss/aside.scss","../../../../../src/assets/scss/variables.scss"],
+"names": [],
+"file": "aside.css"
+}

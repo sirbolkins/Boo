@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.nav {
+  width: 100%;
+  background: #222;
+  text-align: center; }
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 120%;
+  line-height: 40px;
+  padding: 0 20px;
+  font-family: "Nixie One", sans-serif; }
+
+.nav-current a {
+  background: #444;
+  text-shadow: 2px 1px 2px #222; }
+
+.nav ul {
+  margin: 0 auto; }
+
+.nav li {
+  display: inline; }
+
+.nav li a:hover {
+  background: #666;
+  cursor: pointer;
+  text-shadow: 2px 1px 2px #222; }
+
+.pagination {
+  font-size: 80%; }
+
+.main-header.no-cover {
+  display: none; }
+
+.main-header {
+  min-height: 500px;
+  background-position: center center;
+  background-size: cover;
+  background-color: #222; }
+
+.main-header-content {
+  padding: 20px 0; }
+
+.page-title {
+  color: #fff;
+  font-size: 320%;
+  line-height: 100%;
+  text-align: center;
+  font-family: "Nixie One", sans-serif;
+  text-shadow: 2px 1px 2px #222; }
+
+.page-description {
+  color: #efefef;
+  font-size: 240%;
+  line-height: 100%;
+  text-align: center;
+  font-family: "Nixie One", sans-serif;
+  padding: 10px 20%;
+  text-shadow: 2px 1px 2px #222; }
+
+.site-footer {
+  width: 100%;
+  min-height: 80px;
+  line-height: 40px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  font-family: "Nixie One", sans-serif; }
+
+.site-footer a {
+  color: #efefef;
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.extra-pagination {
+  display: none; }
+
+.post-background {
+  width: 100%;
+  padding: 30px 15px 60px; }
+
+.post-background:nth-child(2n + 1) {
+  background-color: #efefef; }
+
+.post {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+  padding: 15px; }
+
+.post-title {
+  position: relative;
+  font-size: 280%;
+  line-height: 120%;
+  font-family: "Nixie One", sans-serif; }
+
+.post-title a {
+  text-decoration: none;
+  color: #222; }
+
+.post-title a:hover {
+  color: #333; }
+
+.post-content p, .post-content li {
+  font-size: 120%;
+  line-height: 120%; }
+
+.post-content li li {
+  font-size: 100%; }
+
+.post-excerpt {
+  max-width: 620px;
+  font-size: 140%;
+  line-height: 120%;
+  font-weight: 300;
+  float: left;
+  color: #333; }
+
+.post-meta {
+  font-family: "Nixie One", sans-serif;
+  float: right;
+  min-width: 300px;
+  max-width: 300px;
+  font-size: 120%;
+  color: #222;
+  text-align: center; }
+
+.post-meta a {
+  color: #222;
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.author-thumb {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 65px;
+  width: auto;
+  box-shadow: 1px 1px 2px #666; }
+
+.post-date {
+  display: block; }
+
+.post-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 60px 0 30px;
+  border-top: 3px dotted #efefef; }
+
+.post-footer .author-image a {
+  display: inline-block;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  background-position: center center;
+  background-color: #efefef; }
+
+.post-footer .author h4 a {
+  font-size: 150%;
+  text-decoration: none;
+  font-family: "Nixie One", sans-serif;
+  font-weight: normal;
+  color: #333; }
+
+.post-footer .author p a {
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.post-footer .author p {
+  font-size: 80%; }
+
+.post-footer .author-meta {
+  font-size: 80%; }
+
+.share {
+  margin: 30px 0; }
+
+.post-meta-date {
+  display: none; }
+
+.read-next {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAPElEQVQYlY3KuREAIAwEMdeyLbj/2o4IhscPgTIZoI67y34SUMeZyrinNN4pjFF6YpaOWKUVuwTIfhKgAcv1jXNASP1lAAAAAElFTkSuQmCC);
+  color: #333; }
+
+.read-next a {
+  text-decoration: none;
+  display: block;
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000; }
+
+.read-next a .read-next-title {
+  font-family: "Nixie One", sans-serif;
+  font-size: 100%; }
+
+.pagination {
+  display: block;
+  line-height: 30px;
+  text-align: center; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  background: #fff; }
+
+p {
+  margin: 15px 0; }
+
+ul {
+  list-style: circle inside;
+  margin-bottom: 15px; }
+
+ul ul {
+  list-style: disc inside;
+  padding-left: 20px;
+  margin-bottom: 0; }
+
+ol {
+  list-style: numbers inside;
+  margin-bottom: 15px; }
+
+ol ol {
+  list-style: lower-roman inside;
+  padding-left: 20px;
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 200%;
+  line-height: 180%; }
+
+h2 {
+  font-size: 175%;
+  line-height: 180%; }
+
+h3 {
+  font-size: 140%;
+  line-height: 140%; }
+
+strong {
+  font-weight: 700; }
+
+em {
+  font-style: italic; }
+
+blockquote {
+  background: #efefef;
+  padding: 15px;
+  color: #222;
+  font-style: italic;
+  margin-bottom: 15px; }
+
+code {
+  line-height: 90%;
+  font-size: 80%;
+  background: #efefef;
+  color: #333;
+  border: 1px solid #efefef;
+  font-family: "Courier New", courier, monospace;
+  border-radius: 2px; }
+
+img {
+  max-width: 100%; }
+
+.hidden {
+  display: none; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+
+/*# sourceMappingURL=main.css.map */
