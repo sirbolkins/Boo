@@ -18,8 +18,13 @@ It features an easily updatable ghost installation configured to run assets from
 - run ```grunt dev``` to kickstart the linter/watcher/builder
 
 ## Release notes 0.0.1:
-- replace the Casper files in src with default Boo theme
+- install dummy data
+- Tag and Author pages in default Boo
+- Async content
+- default Boo logo
 - default Boo favicon.ico
-- default Boo webfont
 - task to start the ghost instance when grunt dev
 - multi theme development with cmd: build [from] [to]
+
+## Release notes 0.0.2:
+- demo site with content online
