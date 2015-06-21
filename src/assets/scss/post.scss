@@ -1,0 +1,92 @@
+//Boo theme post.scss
+//Post styles for loop and single
+
+.extra-pagination {
+	display:none;
+}
+.post-title {
+	position: relative;
+	font-size: 280%;
+	line-height: 120%;
+	font-family: 'Nixie One', cursive;
+}
+.post-title a {
+	text-decoration: none;
+	color: #222;
+}
+.post-title a:hover {
+	color: #d2d2d2;
+}
+.post {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto 30px;
+}
+.post-content p, .post-content li {
+	font-size: 120%;
+	line-height: 120%;
+}
+.post-content li li {
+	font-size: 100%;
+}
+.post-excerpt {
+	max-width: 620px;
+	font-size: 140%;
+	line-height: 120%;
+	font-weight: 300;
+	float: left;
+	color: #333;
+}
+.post-meta {
+	font-family: 'Nixie One', cursive;
+	float: right;
+	min-width: 300px;
+	max-width: 300px;
+	font-size: 120%;
+	color: #222;
+	text-align: center;
+}
+.post-meta a {
+	color: #222;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.author-thumb {
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	height: 65px;
+	width: auto;
+	box-shadow: 1px 1px 2px #666;
+}
+.post-date {
+	display: block;
+}
+.post-footer {
+	text-align: center;
+	margin-top: 50px;
+	padding: 50px 0 30px;
+	border-top: 3px dotted #d2d2d2;
+}
+.post-footer .author-image a {
+	display: inline-block;
+	border-radius: 50%;
+	height: 70px;
+	width: 70px;
+	background-size: cover;
+	background-position: center center;
+}
+.post-footer .author h4 a {
+	font-size: 150%;
+	text-decoration: none;
+	font-family: 'Nixie One', cursive;
+	font-weight: normal;
+	color: #333;
+}
+.post-footer .author p a {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+.post-footer .author p {
+	font-size: 80%;
+}

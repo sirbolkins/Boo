@@ -13,4 +13,3 @@ npm-debug.log
 .sass-cache
 dev/themes/boo
 .gitignore
-src
