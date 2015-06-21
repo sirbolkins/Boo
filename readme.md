@@ -12,7 +12,7 @@ It features an easily updatable ghost installation configured to run assets from
 
 ## Using Boo
 - clone this repo
-- run npm install
+- run ```npm install```
 - run ```node index.js``` to start a ghost instance on localhost:2368
 - the ghost admin panel is on localhost:2368/ghost
 - run ```grunt dev``` to kickstart the linter/watcher/builder
