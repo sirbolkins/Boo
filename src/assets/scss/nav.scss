@@ -1,21 +1,23 @@
 //Boo theme nav.scss
+@import "variables";
+
 .nav {
 	width: 100%;	
-	background: #222;
+	background: $theme-bg-darker;
 	text-align: center;
 }
 .nav a {
-	color: #fff;
+	color: $theme-color-inverse;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 120%;
 	line-height: 40px;
 	padding: 0 20px;
-	font-family: 'Nixie One', cursive;
+	font-family: $font-family-wrap;
 }
 .nav-current a {
-	background: #444;
-	text-shadow: 2px 1px 2px #222;
+	background: $theme-bg-medium;
+	text-shadow: 2px 1px 2px $theme-color-emphasis;
 }
 .nav ul {
 	margin: 0 auto;
@@ -24,9 +26,9 @@
 	display: inline;
 }
 .nav li a:hover {
-	background: #666;
+	background: $theme-bg-light;
 	cursor: pointer;
-	text-shadow: 2px 1px 2px #222;
+	text-shadow: 2px 1px 2px $theme-color-emphasis;
 }
 .pagination {
 	float: right;

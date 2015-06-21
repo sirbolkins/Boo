@@ -1,8 +1,10 @@
+@import "variables";
 @import "reset";
 @import "nav";
 @import "header";
 @import "footer";
 @import "post";
+@import "page";
 
 html {
 	height: 100%;
@@ -10,25 +12,25 @@ html {
 body {
 	position: relative;
 	min-height: 100%;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: 20px;
-	background: #fff;
+	font-family: $font-family-content;
+	font-size: $font-size-base;
+	background: $theme-bg;
 }
 p {
-	margin: 15px 0;
+	margin: $baseline 0;
 }
 ul {
 	list-style: circle inside;
-	margin-bottom: 15px;
+	margin-bottom: $baseline;
 }
 ul ul {
 	list-style: disc inside;
-	padding-left: 15px;
+	padding-left: 20px;
 	margin-bottom: 0;
 }
 ol {
 	list-style: numbers inside;
-	margin-bottom: 15px;
+	margin-bottom: $baseline;
 }
 ol ol {
 	list-style: lower-roman inside;
@@ -57,18 +59,18 @@ em {
 	font-style: italic;
 }
 blockquote {
-	background: #efefef;
-	padding: 10px;
-	color: #222;
+	background: $theme-bg-lighter;
+	padding: $baseline;
+	color: $theme-color-emphasis;
 	font-style: italic;
-	margin-bottom: 15px;
+	margin-bottom: $baseline;
 }
 code {
 	line-height: 90%;
 	font-size: 80%;
-	background: #efefef;
-	color: #333;
-	border: 1px solid #d2d2d2;
+	background: $theme-bg-lighter;
+	color: $theme-color-subdue;
+	border: 1px solid $theme-color-inverse-2;
 	font-family: "Courier New", courier, monospace;
 	border-radius: 2px;
 }
@@ -79,7 +81,7 @@ img {
 	display: none;
 }
 .content {
-	padding: 60px 15px 120px;
+	padding: $baseline * 4 $baseline $baseline * 4;
 }
 
 //https://css-tricks.com/snippets/css/clear-fix/

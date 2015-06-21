@@ -1,18 +1,18 @@
 //Boo Theme footer.scss
+@import "variables";
+
 .site-footer {
-	position: absolute;
-	bottom: 0;
 	width: 100%;
 	min-height: 80px;
 	line-height: 40px;
-	background: #333;
-	color: #fff;
+	background: $theme-bg-dark;
+	color: $theme-color-inverse;
 	text-align: center;
-	font-family: 'Nixie One', cursive;
+	font-family: $font-family-wrap;
 }
 
 .site-footer a {
-	color: #e2e2e2;
+	color: $theme-color-inverse-2;
 	text-decoration: underline;
 	text-decoration-style: dotted;
 }

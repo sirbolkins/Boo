@@ -1,30 +1,31 @@
 //Boo theme header.scss
-.no-cover {
+@import "variables";
+.main-header.no-cover {
 	display: none;
 }
 .main-header {
 	min-height: 500px;
 	background-position: center center;
 	background-size: cover;
-	background-color: #000;
+	background-color: $theme-bg-darker;
 }
 .main-header-content {
 	padding: 20px 0;	
 }
 .page-title {
-	color: #fff;
-	font-size: 320%;
+	color: $theme-color-inverse;
+	font-size: $font-size-site-header;
 	line-height: 100%;
 	text-align: center;
-	font-family: 'Nixie One', cursive;
-	text-shadow: 2px 1px 2px #222;
+	font-family: $font-family-wrap;
+	text-shadow: 2px 1px 2px $theme-color-emphasis;
 }
 .page-description {
-	color: #efefef;
-	font-size: 240%;
+	color: $theme-color-inverse-2;
+	font-size: $font-size-site-secondary;
 	line-height: 100%;
 	text-align: center;
-	font-family: 'Nixie One', cursive;
+	font-family: $font-family-wrap;
 	padding: 10px 20%;
-	text-shadow: 2px 1px 2px #222;
+	text-shadow: 2px 1px 2px $theme-color-emphasis;
 }

@@ -1,0 +1,31 @@
+//Boo theme variables
+
+//colors and backgrounds
+//===============================
+$theme-color-default: #000;
+$theme-color-emphasis: #222;
+$theme-color-inverse: #fff;
+$theme-color-inverse-2: #efefef;
+$theme-color-subdue: #333;
+
+$theme-bg: #fff;
+$theme-bg-darker: #222;
+$theme-bg-dark: #333;
+$theme-bg-medium: #444;
+$theme-bg-light: #666;
+$theme-bg-lighter: #efefef;
+
+//typography
+//===============================
+
+$font-family-wrap: "Nixie One", sans-serif;
+$font-family-content: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+$font-size-base: 20px;
+$font-size-site-header: 320%;
+$font-size-site-secondary: 240%;
+$font-size-small: 80%;
+
+//negative
+//===============================
+$baseline: 15px;
