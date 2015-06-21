@@ -6,7 +6,6 @@
 Version 0.0.0 ***use at own peril***
 
 ## Description
-
 Boo is a theme development framwork for ghost using scss, linting and a staging environment.
 
 It features an easily updatable ghost installation configured to run assets from the dev folder. A Theme is built from src into dev/themes/boo for testing and into build for shipping.
@@ -19,8 +18,8 @@ It features an easily updatable ghost installation configured to run assets from
 - run grunt dev to kick start the linter/watcher
 
 ## Release notes 0.0.1:
+- replace the Casper files in src with default Boo theme
 - default Boo favicon.ico
 - default Boo webfont
-- default Boo theme
-- moar task runnerz
+- task to start the ghost instance when grunt dev
 - multi theme development with cmd: build [from] [to]
