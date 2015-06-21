@@ -11,5 +11,4 @@ ssl
 nbproject
 npm-debug.log
 .sass-cache
-.gitignore
 dev/themes/boo
