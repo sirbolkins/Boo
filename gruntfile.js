@@ -10,31 +10,76 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-        jshint: {
-          files: ['<%= jshint.files %>'],
-          tasks: ['jshint']
-        }
-        sass: {
-          files: ['src/**/*.scss'],
-          tasks['sass'];
-        }
+      files: 'src/**',
+      tasks: ['dev']
     },
     sass: {
       dist: {
         files: [{
           expand: true,
-          cwd: 'styles',
+          cwd: 'src/assets/scss/',
           src: ['*.scss'],
-          dest: '../public',
+          dest: 'build/assets/css/',
+          ext: '.css'
+        },
+        {
+          expand: true,
+          cwd: 'src/assets/scss/',
+          src: ['*.scss'],
+          dest: 'dev/themes/boo/assets/css/',
           ext: '.css'
         }]
       }
+    },
+    copy: {
+      build: {
+        files: [
+          {
+            expand: 'true',
+            cwd: 'src/',
+            src: ['assets/fonts/*', 'assets/js/*', 'partials/*'],
+            dest: 'build/'
+          },
+          {
+            expand: true,
+            cwd: 'src/',
+            src: ['*'],
+            filter: 'isFile',
+            dest: 'build/'
+          }
+        ]
+      },
+      dev: {
+        files: [
+          {
+            expand: 'true',
+            cwd: 'src/',
+            src: ['assets/fonts/*', 'assets/js/*', 'partials/*'],
+            dest: 'dev/themes/boo/'
+          },
+          {
+            expand: true,
+            cwd: 'src/',
+            src: ['*'],
+            filter: 'isFile',
+            dest: 'dev/themes/boo/'
+          }
+        ]
+      }
+    },
+    run: {
+      //open new terminal instance, get to project dir and run node index.js
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default', ['jshint']);
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-run');
+
+  grunt.registerTask('build', ['copy', 'sass']);
+  grunt.registerTask('default', ['build', 'jshint']);
+  grunt.registerTask('dev', ['default', 'watch']);
 
 };

@@ -2,9 +2,11 @@
 .\#*
 *#
 node_modules
+build
 ssl
 .DS_STORE
 *~
 .idea
 nbproject
 npm-debug.log
+.sass-cache

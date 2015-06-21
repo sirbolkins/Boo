@@ -64,7 +64,7 @@ config = {
             port: '2368'
         },
         paths: {
-            contentPath: path.join(__dirname, '../../build')
+            contentPath: path.join(__dirname, '../../dev')
         }
     },
 
