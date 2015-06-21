@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Boo Theme, Modified from Casper -->
+<!-- Boo Theme, adapted from Casper -->
 <html>
 <head>
     {{! Document Settings }}
@@ -17,6 +17,8 @@
 
     {{! load style assets and font files here }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,600italic,300italic' rel='stylesheet' type='text/css'>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -26,7 +28,7 @@
     {{navigation}}
 
     <div class="site-wrapper">
-        
+
         {{! Everything else gets inserted here }}
         {{{body}}}
 

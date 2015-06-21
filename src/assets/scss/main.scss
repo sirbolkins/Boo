@@ -1,4 +1,99 @@
-body {
-	background: #d2d2d2;	
-	font-size: 18px;
+@import "reset";
+@import "nav";
+@import "header";
+@import "footer";
+@import "post";
+
+html {
+	height: 100%;
 }
+body {
+	position: relative;
+	min-height: 100%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	background: #fff;
+}
+p {
+	margin: 15px 0;
+}
+ul {
+	list-style: circle inside;
+	margin-bottom: 15px;
+}
+ul ul {
+	list-style: disc inside;
+	padding-left: 15px;
+	margin-bottom: 0;
+}
+ol {
+	list-style: numbers inside;
+	margin-bottom: 15px;
+}
+ol ol {
+	list-style: lower-roman inside;
+	padding-left: 20px;
+	margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 200%;
+	line-height: 180%;
+}
+h2 {
+	font-size: 175%;
+	line-height: 180%;
+}
+h3 {
+	font-size: 140%;
+	line-height: 140%;
+}
+strong {
+	font-weight: 700;
+}
+em {
+	font-style: italic;
+}
+blockquote {
+	background: #efefef;
+	padding: 10px;
+	color: #222;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+code {
+	line-height: 90%;
+	font-size: 80%;
+	background: #efefef;
+	color: #333;
+	border: 1px solid #d2d2d2;
+	font-family: "Courier New", courier, monospace;
+	border-radius: 2px;
+}
+img {
+	max-width: 100%;
+}
+.hidden {
+	display: none;
+}
+.content {
+	padding: 60px 15px 120px;
+}
+
+//https://css-tricks.com/snippets/css/clear-fix/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+

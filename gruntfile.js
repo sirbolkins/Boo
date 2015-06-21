@@ -11,14 +11,14 @@ module.exports = function(grunt) {
     },
     watch: {
       files: 'src/**',
-      tasks: ['dev']
+      tasks: ['default']
     },
     sass: {
       dist: {
         files: [{
           expand: true,
           cwd: 'src/assets/scss/',
-          src: ['*.scss'],
+          src: ['main.scss'],
           dest: 'build/assets/css/',
           ext: '.css'
         },
