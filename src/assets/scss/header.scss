@@ -1,7 +1,12 @@
 //Boo theme header.scss
 @import "variables";
+
+.blog-logo {
+	display: inline-block;	
+}
 .main-header.no-cover {
-	display: none;
+	min-height: 10px;
+	background-color: $theme-bg;
 }
 .main-header {
 	min-height: 500px;
