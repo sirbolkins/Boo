@@ -69,6 +69,16 @@ module.exports = function(grunt) {
     },
     run: {
       //open new terminal instance, get to project dir and run node index.js
+    },
+    compress: {
+      main: {
+        options: {
+          archive: 'build_min/boo_theme.zip'
+        },
+        files: [
+          {expand: true, cwd: 'build/', src: ['**']},
+        ]
+      }
     }
   });
 
@@ -76,9 +86,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-run');
 
-  grunt.registerTask('build', ['copy', 'sass']);
+  grunt.registerTask('build', ['copy', 'sass', 'compress']);
   grunt.registerTask('default', ['build', 'jshint']);
   grunt.registerTask('dev', ['default', 'watch']);
 
