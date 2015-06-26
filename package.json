@@ -1,6 +1,6 @@
 {
   "name": "Boo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ghost CMS Dev Scaffolding",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,11 @@
   },
   "devDependencies": {
     "ghost": "^0.6.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
